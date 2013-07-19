@@ -1,0 +1,42 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+div {
+	margin: 0px;
+	padding: 20px;
+}
+body {
+	background: #f7f5f2;
+	margin: 0;
+}
+.header {
+	background: #f7f5f2;
+	
+}
+nav{
+	float: right;
+	margin-top: -40px;
+}
+.logo {
+	margin: 0px auto;
+}
+.banner {
+	background: #4d717a;
+}
+.about {
+	background: #222;
+}
+.hoursdirections {
+	background: #ffffff;
+}
+.footer {
+	background: #222;
+	height: 50px;
+	
+}
+nav.footnav {
+	float: left;
+	margin: 0px auto;
+}
