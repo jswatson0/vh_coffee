@@ -13,30 +13,104 @@ body {
 }
 .header {
 	background: #f7f5f2;
-	
+	height: 75px;
+	padding-top: 0px;
+	margin: 0px auto;
+}
+.header:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
 }
 nav{
 	float: right;
 	margin-top: -40px;
 }
-.logo {
+.brand {
 	margin: 0px auto;
 }
 .banner {
 	background: #4d717a;
+	height: 450px;
+}
+.banner:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.moto {
+	font-size: 75px;
+	margin: 0px auto;
+	font-family: cursive;
+	margin-top: 100px;
+	margin-bottom: -30px
+}
+.address {
+	font-size: 15px;
 }
 .about {
 	background: #222;
 }
+	.about:after {
+		content: "";
+		height: :0;
+		display:block;
+		visibility: hidden;
+		clear: both;
+	}
+
+	.introtext {
+		float: left;
+		width: 50%;
+		color: white;
+		font-family: Helvetica;
+	}
+
 .hoursdirections {
+	/*clear: both;*/
 	background: #ffffff;
+	height: 275px;
+}
+
+.hoursdirections:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.map {
+	width: 200px;
+	height: 200px;
+	float: right;
+	background-color: yellow;
+	clear: right;
+	margin-top: -65px;
+	margin-right: 200px;
+
+}
+.address {
+	float: left;
+	margin-bottom
+}
+.hours {
+	float: left;
+	clear: left;
 }
 .footer {
 	background: #222;
-	height: 50px;
+	height: 130px;
+	clear: both;
 	
 }
-nav.footnav {
+.footer nav {
 	float: left;
 	margin: 0px auto;
 }
