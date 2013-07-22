@@ -52,7 +52,14 @@ nav{
 	margin-bottom: -30px
 }
 .address {
-	font-size: 15px;
+	font-size: 20px;
+	float: left;
+	font-family: 'Noto Sans';
+	font-weight: 700px;
+
+}
+.address.bottom {
+		
 }
 .about {
 	background: #222;
@@ -70,6 +77,9 @@ nav{
 		width: 50%;
 		color: white;
 		font-family: Helvetica;
+	}
+	.introtext h4 {
+		margin-bottom: -25px
 	}
 
 .hoursdirections {
@@ -91,15 +101,10 @@ nav{
 	height: 200px;
 	float: right;
 	background-color: yellow;
-	clear: right;
-	margin-top: -65px;
 	margin-right: 200px;
+	margin-top: -50px
+}
 
-}
-.address {
-	float: left;
-	margin-bottom
-}
 .hours {
 	float: left;
 	clear: left;
@@ -112,5 +117,7 @@ nav{
 }
 .footer nav {
 	float: left;
-	margin: 0px auto;
+	margin-top: 25px;
 }
+
+
